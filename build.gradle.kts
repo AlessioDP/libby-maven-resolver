@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.alessiodp.libby.maven.resolver"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -20,6 +20,7 @@ dependencies {
 
     implementation("org.apache.maven.resolver:maven-resolver-impl:1.9.18")
     implementation("org.apache.maven.resolver:maven-resolver-supplier:1.9.18")
+    implementation("org.slf4j:slf4j-nop:1.7.36")
 }
 
 java {
